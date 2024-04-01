@@ -6,6 +6,7 @@ fetch(" https://jsonplaceholder.typicode.com/users")
     .then((users) => {
 
 
+
         let container = document.createElement('div');
         container.setAttribute('class', 'container')
         for(let user of users){

@@ -9,6 +9,7 @@ async function fetchFunction() {
 
 return[query1,query2]}
 
+
          fetchFunction()
              .then(([post, comments]) => {
 

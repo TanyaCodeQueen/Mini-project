@@ -32,6 +32,7 @@ fetch('https://jsonplaceholder.typicode.com/users/' + userId)
 
         foo(user);
 
+
         let flag = false; // Флажок, що показує, чи вже були завантажені пости
 
         let createButton = () => {
