@@ -1,6 +1,7 @@
 const postId = new URL(location.href).searchParams.get('id');
 
 // Fetch post
+
 async function fetchFunction() {
   let query1 = await  fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
         .then(res => res.json())
